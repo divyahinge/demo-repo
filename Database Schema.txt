@@ -1,0 +1,43 @@
+desc user_db;
++-----------+-------------+------+-----+---------+----------------+
+| Field     | Type        | Null | Key | Default | Extra          |
++-----------+-------------+------+-----+---------+----------------+
+| id        | int         | NO   | PRI | NULL    | auto_increment |
+| firstname | varchar(50) | YES  |     | NULL    |                |
+| lastname  | varchar(50) | YES  |     | NULL    |                |
+| age       | int         | YES  |     | NULL    |                |
++-----------+-------------+------+-----+---------+----------------+
+
+
+desc kid_tbl;
++-----------+-------------+------+-----+---------+----------------+
+| Field     | Type        | Null | Key | Default | Extra          |
++-----------+-------------+------+-----+---------+----------------+
+| id        | int         | NO   | PRI | NULL    | auto_increment |
+| firstname | varchar(50) | YES  |     | NULL    |                |
+| lastname  | varchar(50) | YES  |     | NULL    |                |
+| age       | int         | YES  |     | NULL    |                |
++-----------+-------------+------+-----+---------+----------------+
+4 rows in set (0.00 sec)
+
+
+ desc adult_tbl;
++-----------+-------------+------+-----+---------+----------------+
+| Field     | Type        | Null | Key | Default | Extra          |
++-----------+-------------+------+-----+---------+----------------+
+| id        | int         | NO   | PRI | NULL    | auto_increment |
+| firstname | varchar(50) | YES  |     | NULL    |                |
+| lastname  | varchar(50) | YES  |     | NULL    |                |
+| age       | int         | YES  |     | NULL    |                |
++-----------+-------------+------+-----+---------+----------------+
+4 rows in set (0.00 sec)
+
+desc book_info_tbl;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| id        | int         | NO   | PRI | NULL    |       |
+| cost      | int         | YES  |     | NULL    |       |
+| book_name | varchar(50) | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
